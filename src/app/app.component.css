@@ -1,0 +1,30 @@
+.logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: center;
+  height: 100%;
+}
+
+#angular-bg {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  width: 50vw;
+  background-color: rgb(36, 124, 212);
+}
+
+#vue-bg {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  width: 50vw;
+  background-color: rgb(246, 246, 246);
+}
+
+button.ant-btn {
+  margin-bottom: 20px;
+  width: 60px;
+}
